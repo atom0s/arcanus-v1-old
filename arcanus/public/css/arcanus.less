@@ -1,0 +1,179 @@
+/**
+ * arcanus - Copyright (c) 2015-2016 atom0s [atom0s@live.com]
+ *
+ * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ or send a letter to
+ * Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+ *
+ * By using arcanus, you agree to the above license and its terms.
+ *
+ *      Attribution - You must give appropriate credit, provide a link to the license and indicate if changes were
+ *                    made. You must do so in any reasonable manner, but not in any way that suggests the licensor
+ *                    endorses you or your use.
+ *
+ *   Non-Commercial - You may not use the material (arcanus) for commercial purposes.
+ *
+ *   No-Derivatives - If you remix, transform, or build upon the material (arcanus), you may not distribute the
+ *                    modified material. You are, however, allowed to submit the modified works back to the original
+ *                    arcanus project in attempt to have it added to the original project.
+ *
+ * You may not apply legal terms or technological measures that legally restrict others
+ * from doing anything the license permits.
+ *
+ * You may contact me, atom0s, at atom0s@live.com for more information or if you are seeking commercial use.
+ *
+ * No warranties are given.
+ */
+
+@footer-height: 40px;
+
+html, body {
+    background: #FAFAFA;
+    border: 0;
+    color: #555;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    a, a:hover {
+        color: orange;
+        text-decoration: none;
+    }
+}
+
+/**
+ * Content containers.
+ */
+.wrapper {
+    border: 0;
+    display: table;
+    height: 100%;
+    margin: -@footer-height 0 0;
+    min-height: 100%;
+    padding: 30px 0 0;
+    width: 100%;
+
+    .middle {
+        display: table-cell;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+
+/**
+ * Main content.
+ */
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 75%;
+    min-width: 100px;
+
+    span {
+        display: block;
+    }
+
+    .name {
+        font-family: Tahoma, Arial, serif;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+
+    .brand {
+        width: 200px;
+        height: 200px;
+        -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+        -moz-animation: fadein 2.5s; /* Firefox */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+        -o-animation: fadein 2.5s; /* Opera */
+        animation: fadein 2.5s;
+    }
+
+    .error {
+        .code {
+            color: #555;
+            font-family: Tahoma, Arial, serif;
+            font-size: 48px;
+            font-weight: bolder;
+        }
+        .message {
+            overflow: auto;
+            white-space: pre-wrap;
+        }
+        .request {
+            overflow: auto;
+            white-space: pre-wrap;
+        }
+    }
+}
+
+/**
+ * Page footer and copyright.
+ */
+.footer {
+    background: #555;
+    border-top: 1px solid orange;
+    display: table;
+    height: @footer-height;
+    position: relative;
+    width: 100%;
+
+    .copyright {
+        color: #FFF;
+        display: table-cell;
+        font-size: x-small;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+/**
+ * Fade-In Frames
+ */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

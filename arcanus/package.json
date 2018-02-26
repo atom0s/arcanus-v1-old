@@ -1,0 +1,45 @@
+{
+  "name": "arcanus",
+  "version": "1.0.0",
+  "description": "A Node.js website framework that is extensible through plugins.",
+  "author": "atom0s <atom0s@live.com>",
+  "contributors": [
+    {
+      "name": "atom0s",
+      "email": "atom0s@live.com"
+    }
+  ],
+  "private": true,
+  "license": "PRIVATE",
+  "scripts": {
+    "start": "node arcanus.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "~1.15.2",
+    "bower": "^1.7.7",
+    "caller-id": "^0.1.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.1",
+    "express": "~4.14.0",
+    "express-minify-html": "^0.6.0",
+    "express-session": "^1.13.0",
+    "helmet": "^3.11.0",
+    "http": "0.0.0",
+    "less-middleware": "2.2.x",
+    "lodash": "^4.1.0",
+    "morgan": "^1.6.1",
+    "mysql": "^2.10.2",
+    "node-cache": "^4.1.0",
+    "node.extend": "^1.1.5",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "semver": "^5.1.0",
+    "serve-favicon": "~2.3.0",
+    "spawn-npm-install": "^1.2.0",
+    "sprintf-js": "^1.0.3",
+    "vash": "0.12.1",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {}
+}

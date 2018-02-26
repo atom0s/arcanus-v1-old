@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="application-name" content="arcanus" />
+    <meta name="author" content="atom0s" />
+    <meta name="creator" content="atom0s" />
+    <meta name="description" content="A Node.js based website framework." />
+    <meta name="generator" content="arcanus" />
+    <meta name="keywords" content="arcanus, node, nodejs, javascript, js, atom0s, plugin, framework" />
+    <meta name="publisher" content="atom0s" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcanus &bull; An error occurred.</title>
+    <link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/css/arcanus.css" />
+    <link rel="shortcut icon" href="/public/img/favicon/favicon.ico">
+    <link rel="icon" href="/public/img/favicon/favicon.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="middle">
+            <div class="content">
+                <span class="name">arcanus</span>
+                <img class="brand fade" src="/public/img/arcanus.svg" alt="arcanus" width="200" height="200" title="arcanus" />
+                <span class="error">
+                    <span class="code">
+                        @model.error.status
+                    </span>
+                    <span class="well well-sm message">@model.error</span>
+                    Requested Page:
+                    <span class="well well-sm request">@model.error.request</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">
+            Powered by arcanus.<br>
+            Copyright &copy; 2015-2016 &bull; <a href="http://atom0s.com/">atom0s</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="/public/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fade').addClass('in');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "arcanus",
+  "description": "A Node.js website framework that is extensible through plugins.",
+  "main": "arcanus.js",
+  "authors": [
+    "atom0s <atom0s@live.com>"
+  ],
+  "license": "PRIVATE",
+  "moduleType": [],
+  "homepage": "http://atom0s.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.8",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.7.0",
+    "sprintf": "~1.0.3",
+    "jquery": "~2.2.0"
+  }
+}
